@@ -9,3 +9,5 @@ dash.dependencies
 plotly.express
 urllib.request
 plotly.graph_objs
+
+$ heroku buildpacks:set heroku/python
