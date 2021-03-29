@@ -26,7 +26,6 @@ chart-studio==1.1.0
 click==7.1.2
 click-plugins==1.1.1
 cligj==0.7.1
-clyent==1.2.2
 colorama==0.4.3
 conda==4.9.2
 conda-build==3.18.11
