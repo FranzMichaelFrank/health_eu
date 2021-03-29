@@ -4,10 +4,6 @@ gunicorn==19.9.0
 dash-core-components==1.10.0
 dash-html-components==1.0.3
 plotly
-dash.dependencies
-plotly.express
-urllib.request
-plotly.graph_objs
-statsmodels.api
-plotly.figure_factory
+urllib
+statsmodels
 numpy
