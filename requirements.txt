@@ -4,5 +4,4 @@ gunicorn==19.9.0
 dash_core_components
 dash_html_components
 plotly
-urllib
 
