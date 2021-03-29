@@ -84,7 +84,6 @@ lazy-object-proxy==1.4.3
 lesscpy==0.14.0
 libarchive-c==2.9
 lightgbm==3.1.0
-llvmlite==0.33.0+1.g022ab0f
 locket==0.2.0
 Markdown==3.3.3
 mccabe==0.6.1
