@@ -7,4 +7,4 @@ plotly
 statsmodels
 numpy
 requests
-dash_renderer
+dash-renderer==1.4.1
