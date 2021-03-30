@@ -26,6 +26,15 @@ body {
   box-shadow: 2px 2px 2px lightgrey;
 }
 
+.no_border_container {
+  border-radius: 0px;
+  background-color: #f9f9f9;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  box-shadow: 2px 2px 2px lightgrey;
+}
+
 .bare_container {
   margin: 0 0 0 0;
   padding: 0 0 0 0;
@@ -43,6 +52,7 @@ body {
   padding-bottom: 0px;
   margin-bottom: 0px;
   width: calc(100%-40px);
+  text-align: right;
 }
 
 .rc-slider {
