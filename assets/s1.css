@@ -83,6 +83,10 @@
   .five.columns {
     width: 39.3333333333%;
   }
+
+  .fivish.columns {
+    width: 36%;
+  }
   .six.columns {
     width: 48%;
   }
@@ -93,6 +97,8 @@
   .seven.columns {
     width: 56.6666666667%;
   }
+
+
   .eight.columns {
     width: 65.3333333333%;
   }
@@ -638,3 +644,41 @@ there.
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
 }
+
+
+@keyframes fadein {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 0.5;
+  }
+}
+
+._dash-loading-callback {
+font-family: sans-serif;
+padding-top: 50px;
+color: rgb(90, 90, 90);
+
+/* The banner */
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+text-align: center;
+cursor: progress;
+
+opacity: 0;
+background-color: rgb(250, 250, 250);
+/* Delay animation by 1s to prevent flashing 
+   and smoothly transition the animation over 0.5s 
+ */
+
+ -moz-animation: fadein 1s forwards; /* Firefox */
+-webkit-animation: fadein 1s forwards; /* Safari and Chrome */
+-o-animation: fadein 1s forwards; /* Opera */
+  animation: fadein 1s forwards;
+  
+}
+
