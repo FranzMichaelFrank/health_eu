@@ -675,10 +675,10 @@ background-color: rgb(250, 250, 250);
    and smoothly transition the animation over 0.5s 
  */
 
- -moz-animation: fadein 1s forwards; /* Firefox */
--webkit-animation: fadein 1s forwards; /* Safari and Chrome */
--o-animation: fadein 1s forwards; /* Opera */
-  animation: fadein 1s forwards;
+ -moz-animation: fadein 0.5s ease-in 1s forwards; /* Firefox */
+-webkit-animation: fadein 0.5s ease-in 1s forwards; /* Safari and Chrome */
+-o-animation: fadein 0.5s ease-in 1s forwards; /* Opera */
+  animation: fadein 0.5s ease-in 1s forwards;
   
 }
 
